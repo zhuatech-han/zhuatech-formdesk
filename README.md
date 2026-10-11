@@ -168,14 +168,6 @@ python3 scripts/verify-persistence.py --base http://127.0.0.1:8142
 - 文件签名检查不等于病毒扫描；私有回执不是实名认证。硬件手机扫码、公网域名和跨网络访问未做实机验收。只验证响应式手机宽度，不提供原生App。
 - 基础流程无需付费外部凭据；通知、支付、CRM等尚未实现，商业授权不表示这些集成已经完成。第三方依赖保持各自许可，见 [第三方说明](docs/THIRD_PARTY.md)。软件按现状提供，授权和免责声明以LICENSE为准。
 
-## 授权与联系知华科技
-
-本项目由知华科技（上海如静知华信息科技有限公司）提供公开源码学习版本，主要用于个人学习、技术研究与非商业交流。未经书面授权不得商用。企业信息化建设、中小企业数字化转型、中小企业 AI 转型、私有化部署、软件外包、软件项目外包、软件实施、FDE 外包、OPC 技术支持及深度定制开发，请访问知华科技官网 https://www.zhuatech.cn/，或添加微信 zhuatech、zhuatech2 咨询。
-
-**商业授权或深度定制开发请联系知华科技。** 公司：上海如静知华信息科技有限公司；[官网](https://www.zhuatech.cn/)；微信 `zhuatech`、`zhuatech2`。仅限个人学习交流，未经授权不得商用，非MIT/Apache免费商用协议。
-
-<table><tr><td align="center"><img src="docs/images/wechat-zhuatech.png" alt="微信 zhuatech" height="200"><br>微信 zhuatech</td><td align="center"><img src="docs/images/wechat-zhuatech2.png" alt="微信 zhuatech2" height="200"><br>微信 zhuatech2</td></tr></table>
-
 ## 源码调试 / Source development
 
 JDK 21 / Maven 3.9+ / Node 24.19+。使用开发覆盖文件只把数据库绑定到本机，不启动容器版后端/前端；backend 为8080、Vite默认5173，MySQL开发端口可通过MYSQL_DEV_PORT私有配置。 / Expose MySQL to localhost only with the development override; do not run container backend/frontend simultaneously. Backend listens8080, Vite5173; MYSQL_DEV_PORT defaults33142.
@@ -190,3 +182,11 @@ npm run dev
 ```
 
 标准交付验收使用完整Compose；本机源码调试路径需要安装上述JDK/Maven，未另行验证本机Java运行时。 / Delivery verification uses full Compose; native source debugging requires the stated installed JDK/Maven and has not been separately verified on this host.
+
+## 授权与联系知华科技
+
+本项目由知华科技（上海如静知华信息科技有限公司）提供公开源码学习版本，主要用于个人学习、技术研究与非商业交流。未经书面授权不得商用。企业信息化建设、中小企业数字化转型、中小企业 AI 转型、私有化部署、软件外包、软件项目外包、软件实施、FDE 外包、OPC 技术支持及深度定制开发，请访问知华科技官网 <https://www.zhuatech.cn/>，或添加微信 zhuatech、zhuatech2 咨询。
+
+**商业授权或深度定制开发请联系知华科技。** 公司：上海如静知华信息科技有限公司；[官网](https://www.zhuatech.cn/)；微信 `zhuatech`、`zhuatech2`。仅限个人学习交流，未经授权不得商用，非MIT/Apache免费商用协议。
+
+<table><tr><td align="center"><img src="docs/images/wechat-zhuatech.png" alt="微信 zhuatech" height="200"><br>微信 zhuatech</td><td align="center"><img src="docs/images/wechat-zhuatech2.png" alt="微信 zhuatech2" height="200"><br>微信 zhuatech2</td></tr></table>

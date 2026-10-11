@@ -168,16 +168,6 @@ For login errors check the private password; refresh after version conflicts; ch
 - Signature checks are not malware scans; private receipts are not identity verification. Physical phone QR scanning, public-domain and cross-network deployment are not hardware-tested. Responsive mobile-width UI only; no native app.
 - Core use needs no paid external credentials. Notifications/payments/CRM are unimplemented; commercial licensing does not mean these integrations are completed. Third-party licenses remain intact; see [Third-party notices](docs/THIRD_PARTY.md). Provided as-is, with disclaimer in LICENSE.
 
-## Commercial authorization and contact
-
-Personal learning/research/non-commercial exchange only; commercial delivery, deployment, source resale, SaaS and paid services require written authorization under [LICENSE](LICENSE). ZhiHua supports commercial source authorization, private deployment, enterprise digitalization, software development/implementation, systems integration and customization, including FDE/OPC support where applicable. These are service enquiries, not implemented product integrations.
-
-**ZhiHua Technology (Shanghai Rujing Zhihua Information Technology Co., Ltd.)** · [https://www.zhuatech.cn/](https://www.zhuatech.cn/)
-
-- Email: [han@zhuatech.cn](mailto:han@zhuatech.cn)
-- Email: [jack@zhuatech.cn](mailto:jack@zhuatech.cn)
-- WhatsApp: [+86 17521234993](https://wa.me/8617521234993)
-
 ## 源码调试 / Source development
 
 JDK 21 / Maven 3.9+ / Node 24.19+。使用开发覆盖文件只把数据库绑定到本机，不启动容器版后端/前端；backend 为8080、Vite默认5173，MySQL开发端口可通过MYSQL_DEV_PORT私有配置。 / Expose MySQL to localhost only with the development override; do not run container backend/frontend simultaneously. Backend listens8080, Vite5173; MYSQL_DEV_PORT defaults33142.
@@ -192,3 +182,13 @@ npm run dev
 ```
 
 标准交付验收使用完整Compose；本机源码调试路径需要安装上述JDK/Maven，未另行验证本机Java运行时。 / Delivery verification uses full Compose; native source debugging requires the stated installed JDK/Maven and has not been separately verified on this host.
+
+## Commercial authorization and contact
+
+Personal learning/research/non-commercial exchange only; commercial delivery, deployment, source resale, SaaS and paid services require written authorization under [LICENSE](LICENSE). ZhiHua supports commercial source authorization, private deployment, enterprise digitalization, software development/implementation, systems integration and customization, including FDE/OPC support where applicable. These are service enquiries, not implemented product integrations.
+
+**ZhiHua Technology (Shanghai Rujing Zhihua Information Technology Co., Ltd.)** · [https://www.zhuatech.cn/](https://www.zhuatech.cn/)
+
+- Email: [han@zhuatech.cn](mailto:han@zhuatech.cn)
+- Email: [jack@zhuatech.cn](mailto:jack@zhuatech.cn)
+- WhatsApp: [+86 17521234993](https://wa.me/8617521234993)
